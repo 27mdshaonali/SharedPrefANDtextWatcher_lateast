@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FBFBFB"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:id="@+id/name"
+        android:elevation="8dp"
+        android:ellipsize="middle"
+        android:ems="12"
+        android:background="@null"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill,HardcodedText" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0171234567890"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:id="@+id/number"
+        android:elevation="8dp"
+        android:ems="12"
+        android:background="@null"
+        android:inputType="phone"
+        tools:ignore="Autofill,HardcodedText" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Save Data"
+        android:textSize="20sp"
+        android:id="@+id/save_data"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Next Activity"
+        android:textSize="20sp"
+        android:id="@+id/next"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+
+
+
+</LinearLayout>
